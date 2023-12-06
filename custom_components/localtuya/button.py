@@ -36,7 +36,7 @@ class LocaltuyaButton(LocalTuyaEntity, ButtonEntity):
 
     async def async_press(self):
         """Press the button."""
-        await self._device.set_dp(True, self._dp_id)
+        await self._device.set_dp("single_click", self._dp_id)
 
 
 async_setup_entry = partial(async_setup_entry, DOMAIN, LocaltuyaButton, flow_schema)
