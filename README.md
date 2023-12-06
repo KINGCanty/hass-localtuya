@@ -1,10 +1,7 @@
 ![logo](https://github.com/rospogrigio/localtuya-homeassistant/blob/master/img/logo-small.png)
 
 
-__A Home Assistant custom Integration for Playing around and making my own changes
-
-### **Usage and setup [Documentation](https://xzetsubou.github.io/hass-localtuya/)**
-
+A Home Assistant custom Local tuya integration for playing around and making my own changes
 
 <br>
 
